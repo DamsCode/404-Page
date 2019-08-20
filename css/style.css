@@ -1,0 +1,26 @@
+body {
+    background-color: #263046;
+    color: #4B829F;
+}
+
+h1 {
+    color: #86D6D9;
+    text-align: center;
+}
+
+#block {
+    font-size: 400px;
+    text-align: center;
+}
+
+#retour {
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    color: #86D6D9;
+    background-color: #4B829F;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
