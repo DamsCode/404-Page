@@ -21,6 +21,7 @@ h1 {
     background-color: #4B829F;
     border: none;
     cursor: pointer;
+    text-decoration: none;
     padding: 15px 32px;
     border-radius: 10px;
 }
