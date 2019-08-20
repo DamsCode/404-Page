@@ -9,9 +9,39 @@ h1 {
     text-align: center;
 }
 
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes example {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: #4B829F;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: #4B829F;
+    }
+}
+
 #block {
-    font-size: 400px;
+    font-size: 350px;
     text-align: center;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
 }
 
 #retour {
