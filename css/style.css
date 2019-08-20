@@ -56,3 +56,36 @@ h1 {
     padding: 15px 32px;
     border-radius: 10px;
 }
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes hover {
+    from {
+        background-color: #4B829F;
+    }
+    to {
+        background-color: black;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes hover {
+    from {
+        background-color: #4B829F;
+    }
+    to {
+        background-color: black;
+    }
+}
+
+#retour:hover {
+    -webkit-animation-name: hover;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: hover;
+    animation-duration: 2s;
+}
